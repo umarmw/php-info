@@ -1,6 +1,6 @@
 <?php
 
-$welcome = "Welcome to my PHP website";
+$welcome = "Welcome to my PHP website!";
 
 ?>
 <html>
