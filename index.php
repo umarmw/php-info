@@ -5,7 +5,7 @@ $welcome = "Welcome to my PHP website!";
 ?>
 <html>
     <head>
-        <title>PHP</title>
+        <title>PHP - <?php echo getenv('TITLE');</title>
 </head>
 <body>
     <?php echo $welcome; ?>
