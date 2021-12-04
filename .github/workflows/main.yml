@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftpupload.net
-        username: icei_30418483
+        server: demo-999.atwebpages.com
+        username: 3995259_demo999
         password: ${{ secrets.ftp_password }}
         protocol: ftps
-        server-dir: htdocs/
+        server-dir: demo-999.atwebpages.com/
